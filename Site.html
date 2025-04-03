@@ -4,46 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carlos - Desenvolvimento de Software</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-bottom: 2px solid #ddd;
+        }
+        header img {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+        }
+        header h1 {
+            margin: 10px 0;
+            font-size: 2.5em;
+        }
+        header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        .section h2 {
+            color: #444;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .projects {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .card h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .card p {
+            color: #666;
+            font-size: 0.9em;
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .card a:hover {
+            text-decoration: underline;
+        }
+        .contact {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-top: 2px solid #ddd;
+        }
+        .contact a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            color: #666;
+            font-size: 0.9em;
+            border-top: 1px solid #ddd;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <h1>Carlos</h1>
-        <p>Apaixonado por Desenvolvimento de Software</p>
-        <img src="1704063638997.jpg" alt="Foto de Carlos">
-        <p>Estudante de ADS na UTFPR | Busco aprimorar minhas habilidades em programação</p>
-    </div>
+    <div class="container">
+        <header>
+            <img src="caminho/para/sua/imagem.jpg" alt="Foto de Carlos">
+            <h1>Carlos</h1>
+            <p>Apaixonado por Desenvolvimento de Software</p>
+            <p>Estudante de ADS na UTFPR | Busco aprimorar minhas habilidades em programação</p>
+        </header>
 
-    <div>
-        <h2>Apresentação</h2>
-        <p>Olá! Tenho 19 anos e estou cursando Análise e Desenvolvimento de Sistemas (ADS) na UTFPR. Sou apaixonado por desenvolvimento de software e estou em busca de oportunidades para crescer profissionalmente, aplicando meus conhecimentos em programação e aprendendo continuamente.</p>
-    </div>
-
-    <div>
-        <h2>Meus Projetos</h2>
-        <div>
-            <h3>Projeto Web Pessoal</h3>
-            <p>Uma página web simples desenvolvida para prática de HTML, CSS e JavaScript. Inclui funcionalidades básicas e design responsivo.</p>
-            <p><a href="https://github.com/Zunkuun/Curriculo" target="_blank">Veja o projeto</a></p>
+        <div class="section">
+            <h2>Apresentação</h2>
+            <p>Olá! Tenho 19 anos e estou cursando Análise e Desenvolvimento de Sistemas (ADS) na UTFPR. Sou apaixonado por desenvolvimento de software e estou em busca de oportunidades para crescer profissionalmente, aplicando meus conhecimentos em programação e aprendendo continuamente.</p>
         </div>
-        <div>
-            <h3>Aplicação de Estudos</h3>
-            <p>Um projeto em andamento para organizar estudos e tarefas, utilizando técnicas de desenvolvimento front-end.</p>
-            <p><a href="#">Veja o projeto</a></p>
-        </div>
-        <div>
-            <h3>Explorando Algoritmos</h3>
-            <p>Exploração de algoritmos básicos com foco em lógica de programação e resolução de problemas.</p>
-            <p><a href="#">Veja o projeto</a></p>
-        </div>
-    </div>
 
-    <div>
-        <h2>Entre em Contato</h2>
-        <p>Conecte-se comigo no <a href="https://github.com/Zunkuun" target="_blank">GitHub</a></p>
-    </div>
+        <div class="section">
+            <h2>Meus Projetos</h2>
+            <div class="projects">
+                <div class="card">
+                    <img src="https://via.placeholder.com/280x150" alt="Projeto 1">
+                    <h3>Projeto Web Pessoal</h3>
+                    <p>Uma página web simples desenvolvida para prática de HTML, CSS e JavaScript. Inclui funcionalidades básicas e design responsivo.</p>
+                    <a href="https://higorcl.github.io/Prog_Web-Front-End/" target="_blank">Veja o projeto</a>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/280x150" alt="Projeto 2">
+                    <h3>Aplicação de Estudos</h3>
+                    <p>Um projeto em andamento para organizar estudos e tarefas, utilizando técnicas de desenvolvimento front-end.</p>
+                    <a href="#">Veja o projeto</a>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/280x150" alt="Projeto 3">
+                    <h3>Explorando Algoritmos</h3>
+                    <p>Exploração de algoritmos básicos com foco em lógica de programação e resolução de problemas.</p>
+                    <a href="#">Veja o projeto</a>
+                </div>
+            </div>
+        </div>
 
-    <div>
-        <p></p>
+        <div class="contact section">
+            <h2>Entre em Contato</h2>
+            <p>Conecte-se comigo no <a href="https://github.com/seu-usuario" target="_blank">GitHub</a></p>
+        </div>
+
+        <footer>
+            <p>&copy; Copyright 2025. Produzido por Carlos.</p>
+        </footer>
     </div>
 </body>
 </html>

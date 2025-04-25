@@ -16,30 +16,33 @@
             background-color: #f2f2f2;
         }
         header img {
-            max-width: 200px;
+            max-width: 150px;
             height: auto;
         }
         main {
             display: flex;
+            flex-wrap: wrap;
             margin: 20px;
         }
         .texto {
             flex: 3;
             text-align: justify;
             padding-right: 20px;
+            min-width: 300px;
         }
         .imagens {
             flex: 1;
             display: flex;
             flex-direction: column;
             gap: 20px;
+            min-width: 200px;
         }
         .artista {
             text-align: center;
         }
         .artista img {
-            width: 100%;
-            height: auto;
+            width: 180px;
+            height: 180px;
             object-fit: cover;
             border-radius: 8px;
         }

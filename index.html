@@ -1,33 +1,70 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<title>Meus materias a serem estudados</title>
-		
-		<link rel="stylesheet" href="style.css">
-<style>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Anime</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+        main {
+            display: flex;
+            margin: 20px;
+        }
+        .texto {
+            flex: 3;
+            text-align: justify;
+            padding-right: 20px;
+        }
+        .imagens {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .imagens img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
 
-#dia{
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Boku_no_Hero_Academia_logo.png" alt="Logo Anime">
+    </header>
 
-text-align:center;
-font-family: Arial;
-color: blue; font-size: 16px;
-}
-</style>
+    <main>
+        <div class="texto">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultrices sapien vitae nisi bibendum, vitae fermentum turpis lacinia. Nullam in venenatis augue. Fusce a libero at sem congue tincidunt.</p>
+            <p>Donec finibus, mauris sed fermentum aliquet, quam lacus vehicula sapien, eget scelerisque nisi lorem ut justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <p>Morbi luctus feugiat quam, a laoreet sem ullamcorper in. Cras in nulla vel justo facilisis dignissim. Suspendisse potenti. Aenean id malesuada turpis. Nullam vitae nibh ut quam fermentum blandit.</p>
+            <p>Sed tristique magna vel erat tincidunt facilisis. Maecenas volutpat turpis nec risus viverra, nec facilisis mauris tincidunt. Integer posuere vestibulum lacus, nec aliquam erat lacinia ac. Vivamus bibendum, est in pharetra tempus.</p>
+            <p>Vestibulum eget facilisis ligula. Curabitur imperdiet arcu sit amet eros sagittis, sed iaculis diam vestibulum. Integer tincidunt orci ut lacus dignissim, a interdum magna sollicitudin.</p>
+            <p>Praesent porta, quam in vulputate condimentum, tellus magna commodo erat, vitae ultrices nulla odio sed orci. Sed ut risus felis. Donec fermentum tellus in nibh facilisis, sed gravida risus accumsan.</p>
+        </div>
 
-		
-	</head>
+        <div class="imagens">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/7/79/Dragon_Ball_Z_Logo.png" alt="Imagem 1">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/2/2c/Naruto_Uzumaki.png" alt="Imagem 2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Attack_on_Titan_logo.png" alt="Imagem 3">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/One_Piece_Logo.png" alt="Imagem 4">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/7/76/Sailor_Moon_logo.png" alt="Imagem 5">
+        </div>
+    </main>
 
-	<body id="dia">
-		<h1>Você já ouviu falar de Programação? </h1>
-
-		<p id="#dia"> As linguagens de programação podem ser classificadas em vários tipos, com as principais distinções sendo entre linguagens de baixo nível (que se aproximam do hardware) e linguagens de alto nível (que são mais fáceis para humanos entenderem).</p>
-
-		<p> Além disso, existem diferentes categorias como linguagens de aplicação, linguagens de fluxo de dados, linguagens concorrentes, e outras. </p>
-
-		<p><em>1. Linguagens de baixo nível: <strong>"Linguagem de máquina: É a linguagem mais básica, compreendida diretamente pelo processador, usando código binário (0s e 1s). Linguagem de montagem (Assembly): Uma linguagem mais legível do que a máquina, mas ainda bastante específica para o hardware. "</strong>.</em></p>
-
-		<p id="marca">Linguagens de marcação: Criadas para estruturar conteúdo, como HTML e XML. 
-Linguagens de estilização: Usadas para definir a aparência de elementos em páginas web, como CSS. </p>
-	</body>
+</body>
 </html>

@@ -1,0 +1,63 @@
+/* Container centralizado */
+/* Container centralizado */
+.counter {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Bloco com texto e imagem lado a lado */
+.bloco1 {
+  display: flex;
+  align-items: center; /* Alinha o texto e a imagem verticalmente */
+  gap: 20px; /* Espaçamento entre o texto e a imagem */
+  margin-bottom: 40px;
+  justify-content: flex-start; /* Alinha à esquerda */
+}
+
+.bloco2{
+    display: flex;
+    align-items: center; /* Alinha o texto e a imagem verticalmente */
+    gap: 20px; /* Espaçamento entre o texto e a imagem */
+    margin-bottom: 40px;
+    justify-content: flex-start; /* Alinha à esquerda */
+}
+
+/* Estilização do primeiro parágrafo (Texto 1) */
+.paragrafo1 {
+    color: #2C3E50; /* mudar a cor da fonte */
+    font-family: 'Arial', sans-serif; /*  Muadar a fonte para Arial */
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 500px; 
+    text-align: justify; 
+}
+
+.paragrafo2{
+    color: #2C3E50; /* mudar a cor da fonte */
+    font-family: 'Arial', sans-serif; /*  Muadar a fonte para Arial */
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 500px; 
+    text-align: justify; 
+}
+
+.Imagem1 {
+    width: 350px; 
+    height: auto;
+    border-radius: 8px;
+}
+.Imagem2{
+    width: 350px; 
+    height: auto;
+    border-radius: 8px;
+}
+.titulo{
+    text-align: center;
+    color: blue;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 500px; 
+}
